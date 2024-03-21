@@ -42,24 +42,30 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/7528a087-9824-44ac-aa77-6128901d8fc0)
 
 
 
 cat < file2
 ## OUTPUT
 
+![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/5efa87e6-0d63-4d21-9c17-8ea4c9f869ac)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/2369bf72-0c7e-4a4a-8d9c-f2817448649e)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/34b7d485-8cd4-4686-ba34-2c670fcaafb5)
+
 
  
 diff file1 file2
 ## OUTPUT
 
+![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/af7bc968-5664-4eea-aecb-510f6fd2806c)
 
 #Filters
 
@@ -83,6 +89,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/c924d3c5-77d0-4d43-ab9a-9df9b570c884)
 
 
 
@@ -93,6 +100,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/a785b063-a475-49fe-86ab-87934f42de4f)
 
 
 cat < newfile 
