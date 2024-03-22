@@ -1,5 +1,5 @@
-## NAME:HAREESH R
-## REG NO:212223230068
+## NAME:MONISH N
+## REG NO:212223240097
 
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
@@ -45,30 +45,22 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/7528a087-9824-44ac-aa77-6128901d8fc0)
-
-
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/72305fb8-e4ae-4754-bfec-0a3f3ec0597a)
 cat < file2
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/5efa87e6-0d63-4d21-9c17-8ea4c9f869ac)
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/01872c04-a5b8-4b8b-9164-d3a949b47a89)
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/2369bf72-0c7e-4a4a-8d9c-f2817448649e)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/a63a8a53-dd4d-4388-a76e-ac64f6d24068)
 
 comm file1 file2
  ## OUTPUT
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/34b7d485-8cd4-4686-ba34-2c670fcaafb5)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/2ae03557-6f69-4a76-b3c3-f4dba3d27365)
 
-
- 
-diff file1 file2
+ diff file1 file2
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/af7bc968-5664-4eea-aecb-510f6fd2806c)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/8a776d5a-7fbd-4617-8c31-c6e245ffc4b4)
 
 #Filters
 
@@ -91,21 +83,15 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/c924d3c5-77d0-4d43-ab9a-9df9b570c884)
-
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/62ce8e36-b960-4696-a04a-4e83d40c37ec)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/a1ade342-d6f7-40e0-bc3d-a2114ba4393b)
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/bd31228f-729e-413a-ab82-ecee02a4bc00)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/a785b063-a475-49fe-86ab-87934f42de4f)
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/d6eea15a-71bb-4fcc-ad77-a9910c0ecab6)
 
 cat < newfile 
 ```
@@ -119,47 +105,34 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/918fd2d1-a5c2-44b3-8857-af3a62a3dd90)
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/0190445e-e082-433f-bada-6b16cd9bbe59)
 
 grep hello newfile 
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/98b182a7-0843-4e15-9c9b-64bc6c808b4d)
-
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/cdc179e0-f75e-45ad-8359-ab1470017c3b)
 
 grep -v hello newfile 
 ## OUTPUT
 
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/764fc1f1-1865-4e56-a6a4-358fc0336e18)
 
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/73054690-36c2-4d1a-b158-b68a7b6b3507)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/969653d1-89f7-4706-82dc-1f4780c78fdd)
-
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/f467f63e-64b6-4f6d-95cd-0c71fb53f875)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/844132bd-b8b5-4215-ba32-ba489c0d6014)
-
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/6380eb5e-0889-425f-a06b-9c55b7d9c9c7)
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/c7ce112d-af5e-4d92-a968-c92781ded17e)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/80cb4acd-1cfe-4d45-a032-13df2842fa89)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/efc11869-fbbb-4274-a95e-b9fc5d38d7b8)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/66feeb79-a71c-42bf-bf1a-aca98664337b)
 
 cat < newfile 
 ```
@@ -182,39 +155,32 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/f340880e-10a0-4153-a6e8-24f5803eb3d0)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/ef60ae25-6fe7-4c71-b4f7-9286c4da4746)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/bc13760c-523b-4bc9-a248-86612f8457aa)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/7247b1ff-7cb0-414b-9e50-266f1874945d)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/d52fc186-1711-4f61-b721-46c43149f75b)
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/3358b982-5caa-47b6-8b07-984915169d87)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/dafcaa24-98f8-461c-834a-90a0f9f22042)
-
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/7592aae9-80ac-4164-82a1-2d8a1c5fd07e)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/e5b7a566-53ac-4c40-81d8-e92251d84705)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/fcdb2382-0d58-4e8e-82f1-ded12b6c412f)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/db9b134b-2f67-4831-88f1-dd376546a9b1)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/d0d00f6e-e251-475d-8281-259061f05499)
 
 
 egrep '((W|w)orld$)' newfile 
@@ -1182,7 +1148,7 @@ else
 fi
 ```
 ## OUTPUT 
-![image](https://github.com/HareeshrajaR/OS-Linux-commands-Shell-script/assets/144870459/4c86ecae-a50d-4a9d-8146-78ad4d1d4a20)
+![image](https://github.com/Monishofficial/OS-Linux-commands-Shell-script/assets/149455421/2b00f55d-55f5-4faf-bb1b-1a43ca0c632b)
 
 
 
